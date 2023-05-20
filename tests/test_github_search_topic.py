@@ -4,7 +4,7 @@ import pytest
 def test_emoji_could_be_retrived():
     r = requests.get(
         # url
-        url="https://api.github.com/search/repositories",
+        url="https://api.github.com/search/topics",
         # query params
         params={
             'q': "sergii"
